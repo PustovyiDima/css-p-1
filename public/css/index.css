@@ -1,3 +1,38 @@
 .task_1 h1 {
   color: green;
 }
+
+.task_1 p {
+  text-fill-color: red;
+  -webkit-text-fill-color: red;
+}
+
+.task_1 button {
+  text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #000;
+}
+
+.task_2 h1 {
+  direction: rtl;
+}
+
+.task_2 p {
+  text-align: right;
+}
+
+.task_2 button {
+  text-transform: uppercase;
+}
+
+.task_3 h1 {
+  writing-mode: vertical-lr;
+}
+
+.task_3 pre {
+  tab-size: 4;
+}
+
+.task_3 button {
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
