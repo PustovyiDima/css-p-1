@@ -36,3 +36,14 @@
   letter-spacing: 2px;
   text-decoration: underline;
 }
+
+.task_4 h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.task_4 p {
+  font-family: 'Open Sans', sans-serif;
+  font-display: swap;
+  font-weight: 700;
+}
