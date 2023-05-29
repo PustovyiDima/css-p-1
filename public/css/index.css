@@ -97,3 +97,39 @@
   vertical-align: top;
   cursor: wait;
 }
+
+.task_8 div {
+  visibility: hidden;
+  /* or we can use:
+   display: none; 
+   */
+}
+
+.task_8 p {
+  max-height: 70px;
+  overflow-y: scroll;
+}
+
+.task_8 h1 {
+  max-height: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.task_9 h1 {
+  white-space: nowrap;
+  word-spacing: 30px;
+}
+
+.task_9 div {
+  hyphens: manual;
+}
+
+.task_9 p {
+  word-break: break-all;
+}
+
+.task_9 textarea {
+  resize: none;
+}
